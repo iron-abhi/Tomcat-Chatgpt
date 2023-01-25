@@ -84,7 +84,7 @@ const handleSubmit = async (e) => {
 
   // fetch data from server -> bots responce
 
-  const responce = await fetch('https://tomcat-ubws.onrender.com/' ,{
+  const responce = await fetch('https://tomcat-ubws.onrender.com' ,{
     method: 'POST' ,
     headers: {
       'Content-Type': 'application/json'
